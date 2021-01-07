@@ -18,15 +18,6 @@ img {
     width: 100%;
 }
 
-/*-----------------------------MAIN START---------------------------------*/
-#first_section img {
-    max-width: none;
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-/*-----------------------------MAIN SLUT---------------------------------*/
 /*----------------------------Mobile site----------------------------------*/
 
 /*-----------------------------NAVIGATION---------------------------------*/
@@ -58,12 +49,22 @@ nav a {
     font-size: 24px;
 }
 
-/*------------------Skjuler menuén indtil burgermenu er klikket på--------------*/
+/*Skjuler menuén indtil burgermenu er klikket på*/
 
 .toggle {
     display: none;
 }
 
+/*-----------------------------MAIN START---------------------------------*/
+img.splash {
+    max-width: none;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 20% 10%;
+}
+
+/*-----------------------------MAIN SLUT---------------------------------*/
 /*-----------------------------------FOOTER START-------------------------------*/
 footer {
     display: grid;
