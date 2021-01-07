@@ -1,0 +1,22 @@
+/*Gør så man ikke kan scroll */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.header {
+    background: none;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px;
+}
+
+.topbar img {
+    margin-left: 10px;
+    width: 200px;
+    height: 75px;
+}
