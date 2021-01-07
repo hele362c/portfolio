@@ -20,3 +20,12 @@ body {
     width: 200px;
     height: 75px;
 }
+
+#knap {
+    grid-column-start: 3;
+    font-size: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    cursor: pointer;
+}
