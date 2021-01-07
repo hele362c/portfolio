@@ -68,7 +68,7 @@ p #text {
     padding: 5px;
 }
 
-a #instagram {
+a#instagram {
     color: #E4E4E485;
 }
 
@@ -76,7 +76,7 @@ a #instagram {
     padding: 5px;
 }
 
-a #facebook {
+a#facebook {
     color: #E4E4E485;
 }
 
@@ -84,7 +84,7 @@ a #facebook {
     padding: 5px;
 }
 
-socialmedier a #linkedin {
+a#linkedin {
     color: #E4E4E485;
 }
 
