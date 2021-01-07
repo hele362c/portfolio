@@ -19,11 +19,10 @@ img {
 }
 
 /*-----------------------------MAIN START---------------------------------*/
-#first_section {
+#first_section img {
     max-width: none;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(billeder/splash.jpg);
+    width: 100%;
+    height: auto;
     background-size: cover;
 }
 
