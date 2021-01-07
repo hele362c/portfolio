@@ -6,9 +6,9 @@ body {
     overflow-x: hidden;
 }
 
-/*Mobile site*/
+/*----------------------------Mobile site----------------------------------*/
 
-/*NAVIGATION*/
+/*-----------------------------NAVIGATION---------------------------------*/
 
 .topbar {
     display: grid;
@@ -37,17 +37,60 @@ nav a {
     font-size: 24px;
 }
 
-/*Skjuler menuén indtil burgermenu er klikket på*/
+/*------------------Skjuler menuén indtil burgermenu er klikket på--------------*/
 
 .toggle {
     display: none;
 }
 
+/*-----------------------------------FOOTER START-------------------------------*/
 footer {
     display: grid;
     grid-template-columns: auto;
     background-color: #E4E4E485;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 5px;
 }
+
+p #text {
+    grid-column-start: 1fr;
+}
+
+#socialemedier img {
+    width: 30px;
+    height: 30px;
+}
+
+#instagram img {
+    padding: 5px;
+}
+
+a #instagram {
+    color: #E4E4E485;
+}
+
+#facebook img {
+    padding: 5px;
+}
+
+a #facebook {
+    color: #E4E4E485;
+}
+
+#linkedin img {
+    padding: 5px;
+}
+
+socialmedier a #linkedin {
+    color: #E4E4E485;
+}
+
+hr {
+    width: 245px;
+    text-align: left;
+    margin-left: 0;
+    color: lightgray;
+}
+
+/*-----------------------------------FOOTER SLUT-------------------------------*/
