@@ -1,15 +1,14 @@
-/*Gør så man ikke kan scroll */
+/*Gør så man ikke kan scroll til siden*/
+
 html,
 body {
     max-width: 100%;
     overflow-x: hidden;
 }
 
-/*mMOBIL VERSION*/
+/*Mobile site*/
+
 /*NAVIGATION*/
-.header {
-    background: none;
-}
 
 .topbar {
     display: grid;
@@ -27,7 +26,6 @@ body {
     font-size: 20px;
     text-align: center;
     font-size: 26px;
-    color: black;
     cursor: pointer;
 }
 
@@ -36,11 +34,11 @@ nav a {
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    color: black;
     font-size: 24px;
 }
 
 /*Skjuler menuén indtil burgermenu er klikket på*/
+
 .toggle {
     display: none;
 }
