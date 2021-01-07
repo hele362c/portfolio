@@ -1,4 +1,7 @@
 /*Gør så man ikke kan scroll til siden*/
+* {
+    box-sizing: border-box;
+}
 
 html,
 body {
@@ -6,6 +9,21 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    max-width: 1250px;
+    margin: auto;
+}
+
+/*-----------------------------MAIN START---------------------------------*/
+#first_section {
+    max-width: none;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(billeder/splash.jpg);
+    background-size: cover;
+}
+
+/*-----------------------------MAIN SLUT---------------------------------*/
 /*----------------------------Mobile site----------------------------------*/
 
 /*-----------------------------NAVIGATION---------------------------------*/
