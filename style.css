@@ -197,4 +197,31 @@ hr {
         height: 27px;
         margin-top: 27px;
     }
+
+    /*--------------------------NAV SLUT-------------------------*/
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    #second_section .section_wrapper li {
+        margin: 0;
+    }
+
+    #second_section .section_wrapper h3 {
+        font-size: 1.5rem;
+    }
+
+    #second_section .section_wrapper h4 {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    #second_section .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
