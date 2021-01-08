@@ -14,8 +14,8 @@ img {
     width: 100%;
 }
 
-/*mMOBIL VERSION*/
-/*NAVIGATION*/
+/*--------------------------MOBIL VERSION--------------------------------*/
+/*-----------------------------NAVIGATION-------------------------------*/
 .header {
     background: none;
 }
@@ -26,7 +26,6 @@ img {
 }
 
 .topbar img {
-    margin-left: 10px;
     width: 200px;
     height: 75px;
 }
@@ -54,7 +53,42 @@ nav a {
     display: none;
 }
 
+/*-----------------------------------MAIN START-------------------------------*/
+h1 {
+    text-align: center;
+}
+
+img.telefon {
+    width: 70px;
+    height: 70px;
+}
+
+img.email {
+    width: 70px;
+    height: 70px;
+}
+
+img.adr {
+    width: 70px;
+    height: 70px;
+}
+
+img.navn {
+    width: 70px;
+    height: 70px;
+}
+
+img.portraet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 515px;
+}
+
+/*-----------------------------------MAIN SLUT-------------------------------*/
 /*-----------------------------------FOOTER START-------------------------------*/
+
 footer {
     display: grid;
     grid-template-columns: auto;
