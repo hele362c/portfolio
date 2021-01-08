@@ -18,6 +18,11 @@ img {
     width: 100%;
 }
 
+section {
+    max-width: 1250px;
+    margin: auto;
+}
+
 /*----------------------------Mobile site----------------------------------*/
 
 /*-----------------------------NAVIGATION---------------------------------*/
@@ -223,5 +228,19 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .top {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .bottom {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    h3 {
+        margin: 0;
     }
 }
