@@ -55,6 +55,26 @@ nav a {
     display: none;
 }
 
+a#web {
+    color: black;
+}
+
+a#ux {
+    color: black;
+}
+
+a#animation {
+    color: black;
+}
+
+a#indhold {
+    color: black;
+}
+
+a#about {
+    color: black;
+}
+
 /*-----------------------------MAIN START---------------------------------*/
 img.splash {
     max-width: none;
@@ -131,12 +151,11 @@ hr {
     nav.toggle {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        padding-left: 90px;
-        padding-right: 20px;
+        margin-left: 90px;
+        margin-right: 30px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
     }
 
     nav a {
@@ -171,5 +190,11 @@ hr {
         padding-left: 0;
         padding-right: 0;
         margin-top: 10.4px;
+    }
+
+    .vl {
+        border-left: 1px solid black;
+        height: 27px;
+        margin-top: 27px;
     }
 }
