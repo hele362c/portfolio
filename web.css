@@ -5,6 +5,12 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    /*    width: 100%;*/
+    max-width: 100%;
+    height: auto;
+}
+
 /*mMOBIL VERSION*/
 /*NAVIGATION*/
 .header {
@@ -43,6 +49,10 @@ nav a {
 /*Skjuler menuén indtil burgermenu er klikket på*/
 .toggle {
     display: none;
+}
+
+li {
+    list-style-type: circle;
 }
 
 /*-----------------------------------FOOTER START-------------------------------*/
