@@ -78,12 +78,8 @@ img.navn {
     height: 70px;
 }
 
-img.portraet {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 650px;
-    height: 515px;
+ol {
+    list-style-type: none;
 }
 
 /*-----------------------------------MAIN SLUT-------------------------------*/
@@ -199,5 +195,34 @@ hr {
         border-left: 1px solid black;
         height: 27px;
         margin-top: 27px;
+    }
+
+    img.portraet {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+        height: 515px;
+    }
+
+    .section_wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 57px;
+        padding-right: 57px;
+    }
+
+    #second_section {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 57px;
+        padding-right: 57px;
+    }
+
+    #third_section {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 57px;
+        padding-right: 57px;
     }
 }
