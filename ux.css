@@ -40,6 +40,10 @@ nav a {
     font-size: 24px;
 }
 
+li {
+    list-style-type: circle;
+}
+
 /*Skjuler menuén indtil burgermenu er klikket på*/
 .toggle {
     display: none;
