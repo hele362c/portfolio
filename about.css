@@ -238,8 +238,12 @@ hr {
 
     #third_section h4 {
         margin: 0;
+        font-size: 1.9vw;
     }
 
+    .row {
+        margin-left: 10px;
+    }
 }
 
 /*-----------------------------------MAIN SLUT-------------------------------*/
