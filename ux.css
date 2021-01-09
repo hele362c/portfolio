@@ -5,6 +5,12 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    /*    width: 100%;*/
+    max-width: 100%;
+    height: auto;
+}
+
 /*mMOBIL VERSION*/
 /*NAVIGATION*/
 .header {
