@@ -59,27 +59,23 @@ h1 {
 }
 
 img.telefon {
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
 
 img.email {
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
 
 img.adr {
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
 
 img.navn {
-    width: 70px;
-    height: 70px;
-}
-
-ol {
-    list-style-type: none;
+    width: 30px;
+    height: 30px;
 }
 
 /*-----------------------------------MAIN SLUT-------------------------------*/
@@ -197,6 +193,8 @@ hr {
         margin-top: 27px;
     }
 
+    /*-----------------------------------NAV/HEADER SLUT-------------------------------*/
+
     img.portraet {
         display: block;
         margin-left: auto;
@@ -206,6 +204,7 @@ hr {
     }
 
     .section_wrapper {
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         padding-left: 57px;
@@ -213,16 +212,35 @@ hr {
     }
 
     #second_section {
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         padding-left: 57px;
         padding-right: 57px;
+        margin-bottom: 25px;
     }
 
     #third_section {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 57px;
-        padding-right: 57px;
+        margin-bottom: 15px;
+        margin-top: 80px;
     }
+
+    .col_one {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #third_section .col {
+        display: ruby;
+    }
+
+    #third_section h4 {
+        margin: 0;
+    }
+
+}
+
+/*-----------------------------------MAIN SLUT-------------------------------*/
 }
