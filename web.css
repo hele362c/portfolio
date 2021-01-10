@@ -63,14 +63,6 @@ img.mockup {
     width: 100%;
 }
 
-.splashbillede {
-    max-width: 500px
-}
-
-img.splash {
-    width: 100%;
-}
-
 /*-----------------------------------FOOTER START-------------------------------*/
 footer {
     display: grid;
@@ -182,5 +174,11 @@ hr {
         border-left: 1px solid black;
         height: 27px;
         margin-top: 27px;
+    }
+
+    #fire_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
     }
 }
