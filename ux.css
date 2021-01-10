@@ -167,4 +167,10 @@ hr {
         height: 27px;
         margin-top: 27px;
     }
+
+    #tre_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
 }
