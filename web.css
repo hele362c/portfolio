@@ -127,45 +127,44 @@ hr {
         flex-direction: row;
         justify-content: space-around;
     }
-}
 
-nav a {
-    font-size: 18px;
-}
+    nav a {
+        font-size: 18px;
+    }
 
-a#web {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 10.4px;
-}
+    a#web {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10.4px;
+    }
 
-a#ux {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 10.4px;
-}
+    a#ux {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10.4px;
+    }
 
-a#animation {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 10.4px;
-}
+    a#animation {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10.4px;
+    }
 
-a#indhold {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 10.4px;
-}
+    a#indhold {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10.4px;
+    }
 
-a#about {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 10.4px;
-}
+    a#about {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 10.4px;
+    }
 
-.vl {
-    border-left: 1px solid black;
-    height: 27px;
-    margin-top: 27px;
-}
+    .vl {
+        border-left: 1px solid black;
+        height: 27px;
+        margin-top: 27px;
+    }
 }
