@@ -55,6 +55,22 @@ li {
     list-style-type: circle;
 }
 
+.mock_up {
+    max-width: 500px
+}
+
+img.mockup {
+    width: 100%;
+}
+
+.splashbillede {
+    max-width: 500px
+}
+
+img.splash {
+    width: 100%;
+}
+
 /*-----------------------------------FOOTER START-------------------------------*/
 footer {
     display: grid;
