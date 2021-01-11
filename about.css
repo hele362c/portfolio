@@ -11,10 +11,10 @@ section {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
-/*--------------------------MOBIL VERSION--------------------------------*/
 /*-----------------------------NAVIGATION-------------------------------*/
 .header {
     background: none;
@@ -58,6 +58,26 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
 img.telefon {
     width: 6vw;
     height: 9vw;
@@ -76,6 +96,12 @@ img.adr {
 img.navn {
     width: 6vw;
     height: 6vw;
+    margin-top: 10px;
+}
+
+.col {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*-----------------------------------MAIN SLUT-------------------------------*/
