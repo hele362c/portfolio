@@ -11,6 +11,11 @@ img {
     height: auto;
 }
 
+section {
+    max-width: 1250px;
+    margin: auto;
+}
+
 h1,
 h2,
 h3,
