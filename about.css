@@ -15,6 +15,22 @@ img {
     height: auto;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: none;
+}
+
+li,
+a,
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
 /*-----------------------------NAVIGATION-------------------------------*/
 .header {
     background: none;
@@ -46,6 +62,8 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 /*Skjuler menuén indtil burgermenu er klikket på*/

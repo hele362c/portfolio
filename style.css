@@ -18,6 +18,26 @@ img {
     width: 100%;
 }
 
+body {
+    font-family: 'Lora', serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+
+}
+
+
 /*----------------------------Mobile site----------------------------------*/
 
 /*-----------------------------NAVIGATION---------------------------------*/
@@ -46,6 +66,8 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 /*Skjuler menuén indtil burgermenu er klikket på*/
