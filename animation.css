@@ -32,6 +32,12 @@ p {
     font-weight: 100;
 }
 
+#first_section a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.9vw;
+}
+
 /*MOBIL VERSION*/
 /*-------------------NAVIGATION--------------------*/
 .header {
@@ -206,8 +212,7 @@ hr {
     color: lightgray;
 }
 
-/*-----------------------------------FOOTER SLUT-------------------------------*/
-/*-----------------------------------MOBIL SLUT/IPAD START---------------------*/
+/*---------MOBIL SLUT/IPAD START-------------*/
 @media (min-width:760px) {
     #knap {
         display: none;
@@ -274,7 +279,7 @@ hr {
         height: auto;
     }
 
-    /*-------------------MAIN START--------------*/
+    /*-------------------MAIN START-----------*/
     main {
         padding: 40px;
     }
@@ -305,7 +310,6 @@ hr {
         height: auto;
     }
 
-
     .rudolph {
         display: grid;
         margin-left: 0;
@@ -324,7 +328,7 @@ hr {
         column-gap: 10px;
     }
 
-    /*-------------------FOOTER START--------------*/
+    /*------------FOOTER START--------------*/
     #forfatter p {
         margin: 0;
         padding: 5px;
