@@ -54,6 +54,27 @@ nav a {
     display: none;
 }
 
+/*-----------------------------MAIN---------------------------------*/
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 a#web {
     color: black;
 }

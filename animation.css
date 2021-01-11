@@ -11,8 +11,8 @@ img {
     height: auto;
 }
 
-/*mMOBIL VERSION*/
-/*NAVIGATION*/
+/*MOBIL VERSION*/
+/*-------------------NAVIGATION--------------------*/
 .header {
     background: none;
 }
@@ -49,6 +49,58 @@ nav a {
 .toggle {
     display: none;
 }
+
+/*-------------------MAIN START--------------------*/
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.alf {
+    width: 35vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.rudolph {
+    width: 35vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rensdyr {
+    width: 35vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*-----------------------------------FOOTER START-------------------------------*/
 footer {
