@@ -39,8 +39,8 @@ p {
 }
 
 .topbar img {
-    width: 38vw;
-    height: 18vw;
+    max-width: 41vw;
+    height: auto;
 }
 
 #knap {
@@ -98,6 +98,7 @@ p {
     margin-right: 10px;
 }
 
+.style,
 .mood {
     margin-bottom: 10px;
 }
@@ -223,9 +224,34 @@ hr {
         margin-top: 27px;
     }
 
+    .topbar img {
+        width: 20vw;
+        height: auto;
+    }
+
+    /*-------------------MAIN START--------------*/
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     #tre_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
+    }
+
+    .mood {
+        margin-right: 5px;
+    }
+
+    .style {
+        margin-left: 5px;
+    }
+
+    /*-------------------FOOTER START--------------*/
+    #forfatter p {
+        margin: 0;
+        padding: 5px;
     }
 }

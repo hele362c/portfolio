@@ -39,8 +39,8 @@ p {
 }
 
 .topbar img {
-    width: 38vw;
-    height: 18vw;
+    max-width: 41vw;
+    height: auto;
 }
 
 #knap {
@@ -231,5 +231,67 @@ hr {
         border-left: 1px solid black;
         height: 27px;
         margin-top: 27px;
+    }
+
+    .topbar img {
+        width: 20vw;
+        height: auto;
+    }
+
+    /*-------------------MAIN START--------------*/
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    #tredje_section .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    #fire_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    .alf {
+        display: grid;
+        margin-left: 0;
+        margin-right: 0;
+        width: 27.4vw;
+        height: auto;
+    }
+
+
+    .rudolph {
+        display: grid;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rensdyr {
+        display: grid;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #femte_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    /*-------------------FOOTER START--------------*/
+    #forfatter p {
+        margin: 0;
+        padding: 5px;
     }
 }
