@@ -100,12 +100,12 @@ p #text {
 }
 
 #socialemedier img {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
 }
 
 #instagram img {
-    padding: 5px;
+    margin-right: 5px;
 }
 
 a#instagram {
@@ -113,7 +113,7 @@ a#instagram {
 }
 
 #facebook img {
-    padding: 5px;
+    margin-right: 5px;
 }
 
 a#facebook {
@@ -121,7 +121,7 @@ a#facebook {
 }
 
 #linkedin img {
-    padding: 5px;
+    margin-right: 5px;
 }
 
 a#linkedin {
