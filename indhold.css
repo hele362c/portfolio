@@ -39,8 +39,8 @@ p {
 }
 
 .topbar img {
-    width: 38vw;
-    height: 18vw;
+    max-width: 41vw;
+    height: auto;
 }
 
 #knap {
@@ -111,6 +111,10 @@ p {
     margin-right: 10px;
 }
 
+li {
+    list-style-type: circle;
+}
+
 #femte_section img {
     margin-bottom: 10px;
 }
@@ -165,8 +169,8 @@ hr {
     color: lightgray;
 }
 
-/*-----------------------------------FOOTER SLUT-------------------------------*/
-/*-----------------------------------MOBIL SLUT/IPAD START---------------------*/
+/*----------FOOTER SLUT----------*/
+
 @media (min-width:760px) {
     #knap {
         display: none;
@@ -226,5 +230,34 @@ hr {
         border-left: 1px solid black;
         height: 27px;
         margin-top: 27px;
+    }
+
+    .topbar img {
+        width: 20vw;
+        height: auto;
+    }
+
+    /*----------MAIN----------*/
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #tredje_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    #fire_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    #femte_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
     }
 }
