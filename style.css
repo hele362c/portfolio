@@ -97,6 +97,10 @@ p {
     margin-right: 10px;
 }
 
+#text {
+    margin-left: 0;
+}
+
 a#web {
     color: black;
 }
@@ -118,15 +122,15 @@ a#about {
 }
 
 /*-----------------------------MAIN START---------------------------------*/
-img.splash {
+#first_section {
     max-width: none;
     width: 100vw;
     height: 100vh;
+    background-image: url(splash.jpg);
     background-size: cover;
     background-position: 20% 10%;
 }
 
-/*-----------------------------MAIN SLUT---------------------------------*/
 /*-----------------------------------FOOTER START-------------------------------*/
 footer {
     display: grid;
@@ -240,7 +244,15 @@ hr {
         margin-top: 27px;
     }
 
-    /*--------------------------NAV SLUT-------------------------*/
+    .topbar img {
+        width: 22vw;
+        height: auto;
+    }
+
+    /*--------------------------NAV SLUT------------------*/
+    #first_section {
+        height: 56.25vw;
+    }
 
     #second_section .section_wrapper {
         display: grid;
@@ -248,23 +260,15 @@ hr {
         column-gap: 10px;
     }
 
-    #second_section .section_wrapper li {
-        margin: 0;
-    }
-
-    #second_section .section_wrapper h3 {
-        font-size: 1.5rem;
-    }
-
-    #second_section .section_wrapper h4 {
-        font-size: 1.1rem;
-        font-weight: 400;
-    }
-
     #second_section .col {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    #second_section {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .top {
@@ -277,7 +281,21 @@ hr {
         margin-left: 5px;
     }
 
-    h3 {
-        margin: 0;
+    h1,
+    h3,
+    p {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
+
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
 }
