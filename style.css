@@ -40,7 +40,6 @@ p {
 }
 
 
-
 /*--------NAVIGATION----------------------*/
 
 .topbar {
@@ -49,7 +48,7 @@ p {
 }
 
 .topbar img {
-    max-width: 41vw;
+    max-width: 36vw;
     height: auto;
 }
 
