@@ -295,13 +295,6 @@ hr {
         margin-top: 25px;
     }
 
-    #third_section {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 15px;
-        margin-top: 80px;
-    }
-
     .col_one {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -324,7 +317,10 @@ hr {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        margin-left: 120px
+        margin-left: 120px;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 20px;
     }
 
     img.telefon {
