@@ -16,38 +16,45 @@ section {
     margin: auto;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    text-transform: none;
-}
-
-li,
-a,
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-}
-
 #first_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 1.9vw;
+    color: gray;
+}
+
+#first_section a:hover {
+    color: black;
 }
 
 #second_section .section_wrapper a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 1.9vw;
+    color: gray;
+}
+
+#second_section .section_wrapper a:hover {
+    color: black;
 }
 
 #tredje_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 1.9vw;
+    color: gray;
+}
+
+#tredje_section a:hover {
+    color: black;
+}
+
+#second_section a {
+    color: gray;
+}
+
+#second_section a:hover {
+    color: black;
 }
 
 span {
@@ -92,6 +99,10 @@ nav a {
     font-weight: 100;
 }
 
+nav a:hover {
+    color: lightgray;
+}
+
 /*Skjuler menuén indtil burgermenu er klikket på*/
 .toggle {
     display: none;
@@ -116,13 +127,34 @@ nav a {
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: xx-large;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 h2 {
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: none;
+}
+
+li,
+a,
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 h3 {
@@ -146,6 +178,14 @@ li {
 
 #femte_section img {
     margin-bottom: 10px;
+}
+
+#second_section .section_wrapper img:hover {
+    opacity: 0.5;
+}
+
+#tredje_section .section_wrapper img:hover {
+    opacity: 0.5;
 }
 
 /*-----------------------------------FOOTER START-------------------------------*/
