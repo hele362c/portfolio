@@ -143,6 +143,15 @@ p {
     opacity: 0.5;
 }
 
+.crazy8 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+}
+
 /*-----------------------------------FOOTER START-------------------------------*/
 footer {
     display: grid;
@@ -266,11 +275,38 @@ hr {
         padding: 70px;
     }
 
+    #first_section .section_wrapper {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75vw;
+    }
+
+
+    #second_section {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 
     #tre_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
+        padding: 20px;
+    }
+
+    #fire_section {
+        margin-top: 30px;
+    }
+
+    #fire_section .section_wrapper {
+        margin-top: 50px;
+    }
+
+    .last {
+        margin-bottom: 30px;
     }
 
     .mood {

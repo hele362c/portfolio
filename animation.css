@@ -322,18 +322,22 @@ hr {
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
         margin-top: 30px;
+        padding: 20px;
     }
 
     #tredje_section .row {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
+        padding: 20px;
+
     }
 
     #fire_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
+        padding: 20px;
     }
 
     .alf {
@@ -361,7 +365,22 @@ hr {
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
         margin-top: 30px;
+        padding: 20px;
     }
+
+    .last {
+        margin-bottom: 30px;
+    }
+
+    .spil {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75vw;
+    }
+
 
     /*------------FOOTER START--------------*/
     #forfatter p {
