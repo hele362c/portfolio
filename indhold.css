@@ -314,22 +314,62 @@ hr {
         padding: 70px;
     }
 
+    #first_section {
+        margin-bottom: 50px;
+    }
+
+    .video {
+        padding: 20px;
+    }
+
+    #first_section .section_wrapper {
+        margin-bottom: -25px;
+    }
+
+    .first {
+        margin-bottom: 40px;
+    }
+
+    .anden {
+        margin-bottom: 30px;
+    }
+
+    .processen {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75vw;
+    }
 
     #tredje_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
     }
 
     #fire_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     #femte_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
+        padding: 20px;
+    }
+
+    .last {
+        margin-bottom: 30px;
     }
 }

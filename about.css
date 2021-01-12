@@ -270,6 +270,10 @@ hr {
         height: 515px;
     }
 
+    #first_section .section_wrapper {
+        margin-top: 25px;
+    }
+
     .section_wrapper {
         text-align: center;
         margin-left: auto;
@@ -285,6 +289,7 @@ hr {
         padding-left: 57px;
         padding-right: 57px;
         margin-bottom: 25px;
+        margin-top: 25px;
     }
 
     #third_section {
