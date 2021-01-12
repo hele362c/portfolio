@@ -330,6 +330,11 @@ hr {
     main {
         padding: 70px;
     }
+
+    nav.toggle {
+        margin-left: 155px;
+        margin-right: 6px;
+    }
 }
 
 /*-------------------MEDIA 1020--------------*/
@@ -337,6 +342,11 @@ hr {
     .topbar img {
         width: 15vw;
         height: auto;
+    }
+
+    nav.toggle {
+        margin-left: 230px;
+        margin-right: 6px;
     }
 }
 
