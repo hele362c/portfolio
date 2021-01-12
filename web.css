@@ -82,6 +82,10 @@ nav a:hover {
     animation: 20s slider infinite;
 }
 
+figure img {
+    width: 90vw;
+}
+
 .slider_01 {
     overflow: hidden;
     margin: 0;
@@ -104,10 +108,6 @@ nav a:hover {
     position: relative;
     width: 500%;
     animation: 20s slider infinite;
-}
-
-figure img {
-    width: 90vw;
 }
 
 .slider_02 figure img {

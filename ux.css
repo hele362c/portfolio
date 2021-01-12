@@ -84,6 +84,90 @@ li {
 }
 
 /*-------------------------MAIN START------------------------*/
+.slider {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+figure img {
+    width: 90vw;
+}
+
+.slider_01 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_01 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+.slider_01 figure img {
+    width: 90vw;
+}
+
+.slider_02 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_02 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+.slider_02 figure img {
+    width: 90vw;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -201%;
+    }
+
+    70% {
+        left: -201%;
+    }
+
+    75% {
+        left: -302%;
+    }
+
+    95% {
+        left: -302%;
+    }
+}
+
+/*-------------------------ANIMATION SLUT------------------------*/
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -278,6 +362,18 @@ hr {
     }
 
     /*-------------------MAIN START--------------*/
+    figure img {
+        width: 71vw;
+    }
+
+    .slider_01 figure img {
+        width: 71vw;
+    }
+
+    .slider_02 figure img {
+        width: 72vw;
+    }
+
     main {
         padding: 20px;
     }
@@ -295,13 +391,6 @@ hr {
     #second_section {
         margin-bottom: 50px;
         margin-top: 50px;
-    }
-
-    #tre_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-        padding: 20px;
     }
 
     #fire_section {
@@ -355,6 +444,18 @@ hr {
         margin-left: 350px;
         margin-right: 6px;
     }
+
+    figure img {
+        width: 77vw;
+    }
+
+    .slider_01 figure img {
+        width: 76vw;
+    }
+
+    .slider_02 figure img {
+        width: 76vw;
+    }
 }
 
 /*-------------------MEDIA 1200--------------*/
@@ -376,5 +477,17 @@ hr {
 
     #first_section .section_wrapper {
         width: 60vw;
+    }
+
+    figure img {
+        width: 53vw;
+    }
+
+    .slider_01 figure img {
+        width: 52vw;
+    }
+
+    .slider_02 figure img {
+        width: 52vw;
     }
 }
