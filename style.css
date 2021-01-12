@@ -1,6 +1,8 @@
 /*Gør så man ikke kan scroll til siden*/
 * {
     box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 html,
@@ -50,6 +52,7 @@ p {
 .topbar img {
     max-width: 36vw;
     height: auto;
+    margin-left: 7px;
 }
 
 #knap {
@@ -133,7 +136,7 @@ a#about {
     max-width: none;
     width: 100vw;
     height: 100vh;
-    background-image: url(billeder/splash1.jpg);
+    background-image: url(splash/splash_01.jpg);
     background-size: cover;
     background-position: 20% 10%;
 }
