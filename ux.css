@@ -272,7 +272,7 @@ hr {
 
     /*-------------------MAIN START--------------*/
     main {
-        padding: 70px;
+        padding: 20px;
     }
 
     #first_section .section_wrapper {
@@ -317,9 +317,31 @@ hr {
         margin-left: 5px;
     }
 
-    /*-------------------FOOTER START--------------*/
+    /*-------------------FOOTER--------------*/
     #forfatter p {
         margin: 0;
         padding: 5px;
     }
 }
+
+@media (orientation: landscape),
+(min-width:900px) {
+    main {
+        padding: 70px;
+    }
+
+
+    @media (min-width: 1020px) {
+        .topbar img {
+            width: 15vw;
+            height: auto;
+        }
+
+    }
+
+    @media (min-width: 1200px) {
+        .topbar img {
+            width: 11vw;
+            height: auto;
+        }
+    }

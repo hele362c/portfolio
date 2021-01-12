@@ -314,7 +314,7 @@ hr {
 
     /*-------------------MAIN START-----------*/
     main {
-        padding: 70px;
+        padding: 20px;
     }
 
     #second_section .section_wrapper {
@@ -388,3 +388,25 @@ hr {
         padding: 5px;
     }
 }
+
+@media (orientation: landscape),
+(min-width:900px) {
+    main {
+        padding: 70px;
+    }
+
+
+    @media (min-width: 1020px) {
+        .topbar img {
+            width: 15vw;
+            height: auto;
+        }
+
+    }
+
+    @media (min-width: 1200px) {
+        .topbar img {
+            width: 11vw;
+            height: auto;
+        }
+    }

@@ -77,6 +77,14 @@ nav a {
 }
 
 /*-----------------------------MAIN---------------------------------*/
+#second_section a {
+    color: gray;
+}
+
+#second_section a:hover {
+    color: black;
+}
+
 h1 {
     margin-left: 10px;
     margin-right: 10px;
@@ -125,7 +133,7 @@ a#about {
     max-width: none;
     width: 100vw;
     height: 100vh;
-    background-image: url(splash.jpg);
+    background-image: url(billeder/splash1.jpg);
     background-size: cover;
     background-position: 20% 10%;
 }
@@ -254,7 +262,7 @@ hr {
     }
 
     #second_section {
-        padding: 70px;
+        padding: 20px;
     }
 
     #second_section .section_wrapper {
@@ -302,3 +310,25 @@ hr {
     }
 
 }
+
+@media (orientation: landscape),
+(min-width:900px) {
+    #second_section {
+        padding: 70px;
+    }
+
+
+    @media (min-width: 1020px) {
+        .topbar img {
+            width: 15vw;
+            height: auto;
+        }
+
+    }
+
+    @media (min-width: 1200px) {
+        .topbar img {
+            width: 11vw;
+            height: auto;
+        }
+    }

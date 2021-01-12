@@ -285,7 +285,7 @@ hr {
 
     /*-------------------MAIN START--------------*/
     main {
-        padding: 70px;
+        padding: 20px;
     }
 
     .mock_up {
@@ -331,9 +331,31 @@ hr {
         width: 75vw;
     }
 
-    /*-------------------START--------------*/
+    /*-------------------FOOTER--------------*/
     #forfatter p {
         margin: 0;
         padding: 5px;
     }
 }
+
+@media (orientation: landscape),
+(min-width:900px) {
+    main {
+        padding: 70px;
+    }
+
+
+    @media (min-width: 1020px) {
+        .topbar img {
+            width: 15vw;
+            height: auto;
+        }
+
+    }
+
+    @media (min-width: 1200px) {
+        .topbar img {
+            width: 11vw;
+            height: auto;
+        }
+    }
