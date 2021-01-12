@@ -253,6 +253,10 @@ hr {
         height: 56.25vw;
     }
 
+    #second_section {
+        padding: 70px;
+    }
+
     #second_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

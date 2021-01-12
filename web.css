@@ -96,16 +96,19 @@ p {
 h3 {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 h4 {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 6px;
 }
 
 p {
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 5px;
 }
 
 #en_section a {
@@ -117,6 +120,10 @@ p {
 
 #en_section a:hover {
     color: black;
+}
+
+.introbillede {
+    margin-bottom: 50px;
 }
 
 .introbillede img:hover {
@@ -131,8 +138,31 @@ li {
     max-width: 500px
 }
 
+.mockup {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 img.mockup {
     width: 100%;
+}
+
+.moodboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.styletile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /*-----------------------------------FOOTER START-------------------------------*/
@@ -254,20 +284,8 @@ hr {
     }
 
     /*-------------------MAIN START--------------*/
-
-    #en_section {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #to_section {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #tre_section {
-        padding-left: 10px;
-        padding-right: 10px;
+    main {
+        padding: 70px;
     }
 
     .mock_up {
@@ -280,19 +298,37 @@ hr {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     .icon_skitse {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 75vw;
+        margin-bottom: 50px;
+        margin-top: 20px;
     }
 
-    #fem_section {
-        padding-left: 10px;
-        padding-right: 10px;
+    #tre_section {
+        margin-top: 50px;
+    }
+
+    #fire_section {
+        margin-top: 50px;
+    }
+
+    #fire_section .section_wrapper {
+        padding: 20px;
+
+    }
+
+    .moodboard {
+        width: 75vw;
+
+    }
+
+    .styletile {
+        width: 75vw;
     }
 
     /*-------------------START--------------*/
