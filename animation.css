@@ -135,6 +135,10 @@ p {
     margin-top: 5px;
 }
 
+footer p {
+    margin-left: 0;
+}
+
 .alf {
     width: 35vw;
     height: auto;
@@ -394,19 +398,28 @@ hr {
     main {
         padding: 70px;
     }
+}
 
-
-    @media (min-width: 1020px) {
-        .topbar img {
-            width: 15vw;
-            height: auto;
-        }
-
+@media (min-width: 1020px) {
+    .topbar img {
+        width: 15vw;
+        height: auto;
     }
 
-    @media (min-width: 1200px) {
-        .topbar img {
-            width: 11vw;
-            height: auto;
-        }
+}
+
+@media (min-width: 1200px) {
+    .topbar img {
+        width: 11vw;
+        height: auto;
     }
+
+    main {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .spil {
+        width: 59vw;
+    }
+}

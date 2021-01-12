@@ -175,6 +175,10 @@ p {
     margin-top: 5px;
 }
 
+footer p {
+    margin-left: 0;
+}
+
 li {
     list-style-type: circle;
 }
@@ -386,18 +390,31 @@ hr {
         padding: 70px;
     }
 
-
-    @media (min-width: 1020px) {
-        .topbar img {
-            width: 15vw;
-            height: auto;
-        }
-
+    span {
+        font-size: 1vw;
     }
 
-    @media (min-width: 1200px) {
-        .topbar img {
-            width: 11vw;
-            height: auto;
-        }
+    #second_section .section_wrapper a {
+        font-size: 1.2vw;
     }
+}
+
+@media (min-width: 1020px) {
+    .topbar img {
+        width: 15vw;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .topbar img {
+        width: 11vw;
+        height: auto;
+    }
+
+    main {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}

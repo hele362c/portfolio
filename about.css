@@ -111,6 +111,10 @@ p {
     margin-top: 5px;
 }
 
+footer p {
+    margin-left: 0;
+}
+
 img.telefon {
     width: 6vw;
     height: auto;
@@ -352,19 +356,52 @@ hr {
     main {
         padding: 70px;
     }
+}
 
+@media (min-width: 1020px) {
+    .topbar img {
+        width: 15vw;
+        height: auto;
+    }
 
-    @media (min-width: 1020px) {
-        .topbar img {
-            width: 15vw;
-            height: auto;
-        }
+}
+
+@media (min-width: 1200px) {
+    .topbar img {
+        width: 11vw;
+        height: auto;
+    }
+
+    main {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    img.telefon {
+        width: 1.9vw;
+        margin-top: 37px;
 
     }
 
-    @media (min-width: 1200px) {
-        .topbar img {
-            width: 11vw;
-            height: auto;
-        }
+    img.email {
+        width: 1.9vw;
+        margin-top: 54px;
+
     }
+
+    img.adr {
+        width: 1.9vw;
+        margin-top: 43px;
+    }
+
+    img.navn {
+        width: 1.9vw;
+        margin-top: 51px
+    }
+
+    #third_section {
+        grid-template-rows: 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: -277px
+    }
+}
