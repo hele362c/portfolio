@@ -193,8 +193,7 @@ hr {
     color: lightgray;
 }
 
-/*-----------------------------------FOOTER SLUT-------------------------------*/
-/*-----------------------------------MOBIL SLUT/IPAD START---------------------*/
+/*-------------------MEDIA 760--------------*/
 @media (min-width:760px) {
     #knap {
         display: none;
@@ -350,7 +349,7 @@ hr {
     }
 }
 
-/*-----------------------------------MAIN SLUT-------------------------------*/
+/*-------------------MEDIA 900--------------*/
 @media (orientation: landscape),
 (min-width:900px) {
     main {
@@ -358,6 +357,7 @@ hr {
     }
 }
 
+/*-------------------MEDIA 1020--------------*/
 @media (min-width: 1020px) {
     .topbar img {
         width: 15vw;
@@ -366,6 +366,7 @@ hr {
 
 }
 
+/*-------------------MEDIA 1200--------------*/
 @media (min-width: 1200px) {
     .topbar img {
         width: 11vw;
@@ -403,5 +404,13 @@ hr {
         grid-template-rows: 0;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-left: -277px
+    }
+}
+
+/*-------------------MEDIA 1500--------------*/
+@media (min-width: 1500px) {
+    nav.toggle {
+        margin-left: 750px;
+        margin-right: 30px;
     }
 }
