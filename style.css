@@ -311,6 +311,7 @@ hr {
 
 }
 
+/*--------------------------MEDIA 900------------------*/
 @media (orientation: landscape),
 (min-width:900px) {
     #second_section {
@@ -318,11 +319,12 @@ hr {
     }
 
     nav.toggle {
-        margin-left: 155px;
+        margin-left: 200px;
         margin-right: 6px;
     }
 }
 
+/*--------------------------MEDIA 1020------------------*/
 @media (min-width: 1020px) {
     .topbar img {
         width: 15vw;
@@ -330,23 +332,21 @@ hr {
     }
 
     nav.toggle {
-        margin-left: 230px;
+        margin-left: 350px;
         margin-right: 6px;
     }
 
 }
 
+/*--------------------------MEDIA 1200------------------*/
 @media (min-width: 1200px) {
     .topbar img {
         width: 11vw;
         height: auto;
     }
-}
 
-@media (min-width: 1500px) {
     nav.toggle {
-
-        margin-left: 750px;
-        margin-right: 30px;
+        margin-left: 550px;
+        margin-right: 6px;
     }
 }
