@@ -82,8 +82,36 @@ nav a:hover {
     animation: 20s slider infinite;
 }
 
+.slider_01 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_01 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+.slider_02 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_02 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
 figure img {
     width: 90vw;
+}
+
+.slider_02 figure img {
+    width: 89vw;
 }
 
 @keyframes slider {
@@ -194,17 +222,11 @@ li {
     list-style-type: circle;
 }
 
-.mock_up {
-    max-width: 500px
-}
+
 
 .mockup {
     margin-bottom: 30px;
     margin-top: 30px;
-}
-
-img.mockup {
-    width: 100%;
 }
 
 .moodboard {
@@ -339,6 +361,10 @@ hr {
         width: 85vw;
     }
 
+    .slider_02 figure img {
+        width: 79.1vw;
+    }
+
     main {
         padding: 20px;
     }
@@ -347,21 +373,6 @@ hr {
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    #fire_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 10px;
-    }
-
-    .icon_skitse {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 75vw;
-        margin-bottom: 50px;
-        margin-top: 20px;
     }
 
     #tre_section {
@@ -418,6 +429,10 @@ hr {
         width: 76vw;
     }
 
+    .slider_02 figure img {
+        width: 72.4vw;
+    }
+
 }
 
 /*-------------------MEDIA 1200--------------*/
@@ -439,5 +454,9 @@ hr {
 
     figure img {
         width: 52.6vw;
+    }
+
+    .slider_02 figure img {
+        width: 49.6vw;
     }
 }
