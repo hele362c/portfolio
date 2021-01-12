@@ -69,6 +69,58 @@ nav a:hover {
 }
 
 /*----------------------MAIN-------------------------*/
+.slider {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider figure {
+    position: relative;
+    width: 403%;
+    animation: 20s slider infinite;
+}
+
+figure img {
+    width: 90vw;
+}
+
+@keyframes silder {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -201%;
+    }
+
+    70% {
+        left: -201%;
+    }
+
+    75% {
+        left: -302%;
+    }
+
+    95% {
+        left: -302%;
+    }
+}
+
+/*----------------------ANIMATION SLUT-------------------------*/
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -155,15 +207,6 @@ img.mockup {
 }
 
 .moodboard {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90vw;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.styletile {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -332,10 +375,6 @@ hr {
     .moodboard {
         width: 75vw;
 
-    }
-
-    .styletile {
-        width: 75vw;
     }
 
     /*-------------------FOOTER--------------*/
