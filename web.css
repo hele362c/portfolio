@@ -24,7 +24,7 @@ section {
 
 /*mMOBIL VERSION*/
 /*----------------------NAVIGATION-------------------------*/
-.header {
+header {
     background: none;
 }
 
@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 figure img {
-    width: 90vw;
+    width: 88vw;
 }
 
 .slider_01 {
@@ -101,7 +101,7 @@ figure img {
 }
 
 .slider_01 figure img {
-    width: 89vw;
+    width: 87vw;
 }
 
 .slider_02 {
@@ -118,7 +118,7 @@ figure img {
 }
 
 .slider_02 figure img {
-    width: 89vw;
+    width: 88vw;
 }
 
 @keyframes slider {

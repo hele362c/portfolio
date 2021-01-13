@@ -25,7 +25,7 @@ section {
 #first_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 1.1vw;
+    font-size: 4vw;
     color: gray;
 }
 
@@ -124,16 +124,16 @@ li {
 }
 
 figure img {
-    width: 90vw;
+    width: 88vw;
 }
 
 .slider_01 figure img {
-    width: 90vw;
+    width: 88vw;
 }
 
 
 .slider_02 figure img {
-    width: 90vw;
+    width: 88vw;
 }
 
 @keyframes slider {
@@ -464,6 +464,12 @@ hr {
     .slider_02 figure img {
         width: 75vw;
     }
+
+    #first_section a {
+        font-size: 1.1vw;
+
+    }
+
 }
 
 /*-------------------MEDIA 1200--------------*/

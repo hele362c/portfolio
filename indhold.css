@@ -25,7 +25,7 @@ section {
 #first_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 1.2vw;
+    font-size: 4vw;
     color: gray;
 }
 
@@ -157,16 +157,16 @@ nav a:hover {
 }
 
 figure img {
-    width: 90vw;
+    width: 88vw;
 }
 
 .slider_01 figure img {
-    width: 90vw;
+    width: 88vw;
 }
 
 
 .slider_02 figure img {
-    width: 90vw;
+    width: 88vw;
 }
 
 @keyframes slider {
@@ -527,6 +527,13 @@ hr {
 
     .slider_02 figure img {
         width: 74.1vw;
+    }
+
+    #first_section a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        font-size: 1.2vw;
+        color: gray;
     }
 
 
