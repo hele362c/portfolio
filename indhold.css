@@ -117,6 +117,87 @@ nav a:hover {
 
 /*-----------------------NAV SLUT-----------------*/
 /*-----------------------MAIN START-----------------*/
+.slider {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+.slider_01 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_01 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+.slider_02 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_02 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+figure img {
+    width: 90vw;
+}
+
+.slider_01 figure img {
+    width: 90vw;
+}
+
+.slider_02 figure img {
+    width: 90vw;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -201%;
+    }
+
+    70% {
+        left: -201%;
+    }
+
+    75% {
+        left: -302%;
+    }
+
+    95% {
+        left: -302%;
+    }
+}
 
 .iframe_container {
     position: relative;
@@ -131,6 +212,11 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.iframe {
+    width: 560;
+    height: 315;
 }
 
 h1 {
@@ -321,6 +407,18 @@ hr {
     }
 
     /*----------MAIN----------*/
+    figure img {
+        width: 72vw;
+    }
+
+    .slider_01 figure img {
+        width: 72vw;
+    }
+
+    .slider_02 figure img {
+        width: 72vw;
+    }
+
     main {
         padding: 20px;
     }
@@ -351,13 +449,10 @@ hr {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75vw;
+        width: 59.1vw;
     }
 
     #tredje_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
         padding: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -365,18 +460,12 @@ hr {
     }
 
     #fire_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
         padding: 20px;
         margin-top: 20px;
         margin-bottom: 30px;
     }
 
     #femte_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
         padding: 20px;
     }
 
@@ -424,6 +513,19 @@ hr {
         margin-right: 6px;
     }
 
+    figure img {
+        width: 76vw;
+    }
+
+    .slider_01 figure img {
+        width: 76vw;
+    }
+
+    .slider_02 figure img {
+        width: 76vw;
+    }
+
+
 }
 
 /*-------------------MEDIA 1200--------------*/
@@ -441,5 +543,17 @@ hr {
     nav.toggle {
         margin-left: 550px;
         margin-right: 6px;
+    }
+
+    figure img {
+        width: 49.7vw;
+    }
+
+    .slider_01 figure img {
+        width: 49.7vw;
+    }
+
+    .slider_02 figure img {
+        width: 53vw;
     }
 }
