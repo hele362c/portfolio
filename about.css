@@ -360,7 +360,7 @@ hr {
     }
 
     nav.toggle {
-        margin-left: 200px;
+        margin-left: 100px;
         margin-right: 6px;
     }
 }
@@ -384,16 +384,18 @@ hr {
     .topbar img {
         width: 11vw;
         height: auto;
-    }
-
-    nav.toggle {
-        margin-left: 550px;
-        margin-right: 6px;
+        margin-left: 11px;
+        margin-top: 3.4px;
     }
 
     main {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    nav.toggle {
+        margin-left: 530px;
+        margin-right: 50px;
     }
 
     img.telefon {

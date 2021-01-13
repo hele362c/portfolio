@@ -25,7 +25,7 @@ section {
 #first_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 1.9vw;
+    font-size: 1.1vw;
     color: gray;
 }
 
@@ -87,12 +87,39 @@ li {
 .slider {
     overflow: hidden;
     margin: 0;
-    margin-right: 10vw;
+    margin-right: 6vw;
+    margin-left: 5.5vw;
 }
 
 .slider figure {
     position: relative;
-    width: 500%;
+    width: 403%;
+    animation: 20s slider infinite;
+}
+
+.slider_01 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 6vw;
+    margin-left: 5.5vw;
+}
+
+.slider_01 figure {
+    position: relative;
+    width: 403%;
+    animation: 20s slider infinite;
+}
+
+.slider_02 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 6vw;
+    margin-left: 5.5vw;
+}
+
+.slider_02 figure {
+    position: relative;
+    width: 403%;
     animation: 20s slider infinite;
 }
 
@@ -100,33 +127,10 @@ figure img {
     width: 90vw;
 }
 
-.slider_01 {
-    overflow: hidden;
-    margin: 0;
-    margin-right: 10vw;
-}
-
-.slider_01 figure {
-    position: relative;
-    width: 500%;
-    animation: 20s slider infinite;
-}
-
 .slider_01 figure img {
     width: 90vw;
 }
 
-.slider_02 {
-    overflow: hidden;
-    margin: 0;
-    margin-right: 10vw;
-}
-
-.slider_02 figure {
-    position: relative;
-    width: 500%;
-    animation: 20s slider infinite;
-}
 
 .slider_02 figure img {
     width: 90vw;
@@ -363,15 +367,15 @@ hr {
 
     /*-------------------MAIN START--------------*/
     figure img {
-        width: 71vw;
+        width: 70vw;
     }
 
     .slider_01 figure img {
-        width: 71vw;
+        width: 70vw;
     }
 
     .slider_02 figure img {
-        width: 72vw;
+        width: 70vw;
     }
 
     main {
@@ -384,12 +388,12 @@ hr {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75vw;
+        width: 40;
     }
 
 
     #second_section {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         margin-top: 50px;
     }
 
@@ -428,8 +432,12 @@ hr {
     }
 
     nav.toggle {
-        margin-left: 200px;
+        margin-left: 100px;
         margin-right: 6px;
+    }
+
+    #first_section .section_wrapper {
+        width: 40vw;
     }
 }
 
@@ -446,15 +454,15 @@ hr {
     }
 
     figure img {
-        width: 77vw;
+        width: 75vw;
     }
 
     .slider_01 figure img {
-        width: 76vw;
+        width: 75vw;
     }
 
     .slider_02 figure img {
-        width: 76vw;
+        width: 75vw;
     }
 }
 
@@ -463,31 +471,29 @@ hr {
     .topbar img {
         width: 11vw;
         height: auto;
+        margin-left: 11px;
+        margin-top: 3.4px;
     }
 
     main {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
 
     nav.toggle {
-        margin-left: 550px;
-        margin-right: 6px;
-    }
-
-    #first_section .section_wrapper {
-        width: 60vw;
+        margin-left: 530px;
+        margin-right: 50px;
     }
 
     figure img {
-        width: 53vw;
+        width: 44vw;
     }
 
     .slider_01 figure img {
-        width: 52vw;
+        width: 44vw;
     }
 
     .slider_02 figure img {
-        width: 52vw;
+        width: 44vw;
     }
 }

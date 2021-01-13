@@ -94,51 +94,55 @@ nav a:hover {
 }
 
 /*-------------------MAIN START--------------------*/
-.slider_02 {
+.slider {
     overflow: hidden;
     margin: 0;
-    margin-right: 10vw;
+    margin-right: 6vw;
+    margin-right: 5.5vw;
 }
 
-.slider_02 figure {
+.slider figure {
     position: relative;
-    width: 500%;
+    width: 403%;
     animation: 20s slider infinite;
-}
-
-.slider_02 figure img {
-    width: 90vw;
 }
 
 .slider_01 {
     overflow: hidden;
     margin: 0;
-    margin-right: 10vw;
+    margin-right: 6vw;
+    margin-right: 5.5vw;
 }
 
 .slider_01 figure {
     position: relative;
-    width: 500%;
+    width: 403%;
     animation: 20s slider infinite;
+}
+
+.slider_02 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 6vw;
+    margin-right: 5.5vw;
+}
+
+.slider_02 figure {
+    position: relative;
+    width: 403%;
+    animation: 20s slider infinite;
+}
+
+figure img {
+    width: 90vw;
 }
 
 .slider_01 figure img {
     width: 90vw;
 }
 
-.slider {
-    overflow: hidden;
-    margin: 0;
-    margin-right: 10vw;
-}
 
-.slider figure {
-    position: relative;
-    width: 500%;
-    animation: 20s slider infinite;
-}
-
-figure img {
+.slider_02 figure img {
     width: 90vw;
 }
 
@@ -416,7 +420,7 @@ hr {
     }
 
     nav.toggle {
-        margin-left: 200px;
+        margin-left: 100px;
         margin-right: 6px;
     }
 }
@@ -452,16 +456,18 @@ hr {
     .topbar img {
         width: 11vw;
         height: auto;
-    }
-
-    nav.toggle {
-        margin-left: 550px;
-        margin-right: 6px;
+        margin-left: 11px;
+        margin-top: 3.4px;
     }
 
     main {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    nav.toggle {
+        margin-left: 530px;
+        margin-right: 50px;
     }
 
     .spil {
