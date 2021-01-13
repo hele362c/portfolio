@@ -219,8 +219,8 @@ figure img {
 }
 
 .iframe {
-    width: 560;
-    height: 315;
+    width: 560px;
+    height: 315px;
 }
 
 h1 {
@@ -304,10 +304,6 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 5px;
-}
-
-p #text {
-    grid-column-start: 1fr;
 }
 
 #socialemedier img {
