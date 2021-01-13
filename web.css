@@ -387,7 +387,7 @@ hr {
     }
 
     #tre_section {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     #fire_section {
@@ -399,8 +399,8 @@ hr {
 
     }
 
-    .moodboard {
-        width: 75vw;
+    .mood {
+        padding: 25px;
 
     }
 
