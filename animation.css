@@ -94,6 +94,88 @@ nav a:hover {
 }
 
 /*-------------------MAIN START--------------------*/
+.slider_02 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_02 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+.slider_02 figure img {
+    width: 90vw;
+}
+
+.slider_01 {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider_01 figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+.slider_01 figure img {
+    width: 90vw;
+}
+
+.slider {
+    overflow: hidden;
+    margin: 0;
+    margin-right: 10vw;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+
+figure img {
+    width: 90vw;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -201%;
+    }
+
+    70% {
+        left: -201%;
+    }
+
+    75% {
+        left: -302%;
+    }
+
+    95% {
+        left: -302%;
+    }
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -144,31 +226,6 @@ p {
 
 footer p {
     margin-left: 0;
-}
-
-.alf {
-    width: 35vw;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.rudolph {
-    width: 35vw;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.rensdyr {
-    width: 35vw;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #first_section {
@@ -328,70 +385,21 @@ hr {
         padding: 20px;
     }
 
-    #second_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-        margin-top: 30px;
-        padding: 20px;
-    }
-
-    #tredje_section .row {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 10px;
-        padding: 20px;
-
-    }
-
-    #fire_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 10px;
-        padding: 20px;
-    }
-
-    .alf {
-        display: grid;
-        margin-left: 0;
-        margin-right: 0;
-        width: 27.4vw;
-        height: auto;
-    }
-
-    .rudolph {
-        display: grid;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .rensdyr {
-        display: grid;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    #femte_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-        margin-top: 30px;
-        padding: 20px;
-    }
-
     .last {
         margin-bottom: 30px;
     }
 
-    .spil {
-        margin-bottom: 30px;
-        margin-top: 30px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 75vw;
+    figure img {
+        width: 71.4vw;
     }
 
+    .slider_01 figure img {
+        width: 71.4vw;
+    }
+
+    .slider_02 figure img {
+        width: 71.9vw;
+    }
 
     /*------------FOOTER START--------------*/
     #forfatter p {
@@ -425,6 +433,18 @@ hr {
         margin-right: 6px;
     }
 
+    figure img {
+        width: 76.4vw;
+    }
+
+    .slider_01 figure img {
+        width: 76.3vw;
+    }
+
+    .slider_02 figure img {
+        width: 76vw;
+    }
+
 }
 
 /*-------------------MEDIA 1200--------------*/
@@ -446,6 +466,18 @@ hr {
 
     .spil {
         width: 59vw;
+    }
+
+    figure img {
+        width: 48.2vw;
+    }
+
+    .slider_01 figure img {
+        width: 48.3vw;
+    }
+
+    .slider_02 figure img {
+        width: 48vw;
     }
 }
 

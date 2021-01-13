@@ -133,12 +133,22 @@ a#about {
 }
 
 #first_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
     max-width: none;
     width: 100vw;
     height: 100vh;
-    background-image: url(splash/splash_01.jpg);
+    background-image: url(splash/splash4.jpg);
     background-size: cover;
     background-position: 20% 10%;
+
+}
+
+#first_section .section_wrapper {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 /*-----------------------------------FOOTER START-------------------------------*/
@@ -268,16 +278,17 @@ hr {
         padding: 20px;
     }
 
-    #second_section .section_wrapper {
+    #second_section .section_wrapper .row {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
         column-gap: 10px;
     }
 
-    #second_section .col {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    #second_section . {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
     }
 
     #second_section {
