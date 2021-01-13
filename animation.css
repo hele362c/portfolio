@@ -228,6 +228,10 @@ p {
     margin-top: 5px;
 }
 
+p a {
+    margin-left: 45px;
+}
+
 footer p {
     margin-left: 0;
 }
