@@ -25,7 +25,7 @@ section {
 #first_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 1.9vw;
+    font-size: 1.2vw;
     color: gray;
 }
 
@@ -36,7 +36,7 @@ section {
 #second_section .section_wrapper a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 1.9vw;
+    font-size: 1.2vw;
     color: gray;
 }
 
@@ -47,7 +47,7 @@ section {
 #tredje_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 1.9vw;
+    font-size: 1.2vw;
     color: gray;
 }
 
@@ -121,7 +121,7 @@ nav a:hover {
     overflow: hidden;
     margin: 0;
     margin-right: 6vw;
-    margin-right: 5.5vw;
+    margin-left: 5.5vw;
 }
 
 .slider figure {
@@ -134,7 +134,7 @@ nav a:hover {
     overflow: hidden;
     margin: 0;
     margin-right: 6vw;
-    margin-right: 5.5vw;
+    margin-left: 5.5vw;
 }
 
 .slider_01 figure {
@@ -147,7 +147,7 @@ nav a:hover {
     overflow: hidden;
     margin: 0;
     margin-right: 6vw;
-    margin-right: 5.5vw;
+    margin-left: 5.5vw;
 }
 
 .slider_02 figure {
@@ -412,15 +412,15 @@ hr {
 
     /*----------MAIN----------*/
     figure img {
-        width: 72vw;
+        width: 64.9vw;
     }
 
     .slider_01 figure img {
-        width: 72vw;
+        width: 64.9vw;
     }
 
     .slider_02 figure img {
-        width: 72vw;
+        width: 70vw;
     }
 
     main {
@@ -453,7 +453,7 @@ hr {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 59.1vw;
+        width: 52vw;
     }
 
     #tredje_section .section_wrapper {
@@ -518,15 +518,15 @@ hr {
     }
 
     figure img {
-        width: 76vw;
+        width: 71vw;
     }
 
     .slider_01 figure img {
-        width: 76vw;
+        width: 71vw;
     }
 
     .slider_02 figure img {
-        width: 76vw;
+        width: 74.1vw;
     }
 
 
@@ -552,14 +552,14 @@ hr {
     }
 
     figure img {
-        width: 49.7vw;
+        width: 41.2vw;
     }
 
     .slider_01 figure img {
-        width: 49.7vw;
+        width: 41.2vw;
     }
 
     .slider_02 figure img {
-        width: 53vw;
+        width: 44vw;
     }
 }
