@@ -73,12 +73,13 @@ nav a:hover {
 .slider {
     overflow: hidden;
     margin: 0;
-    margin-right: 10vw;
+    margin-right: 6vw;
+    margin-left: 5.5vw;
 }
 
 .slider figure {
     position: relative;
-    width: 500%;
+    width: 403%;
     animation: 20s slider infinite;
 }
 
@@ -89,24 +90,30 @@ figure img {
 .slider_01 {
     overflow: hidden;
     margin: 0;
-    margin-right: 10vw;
+    margin-right: 6vw;
+    margin-left: 5.5vw;
 }
 
 .slider_01 figure {
     position: relative;
-    width: 500%;
+    width: 403%;
     animation: 20s slider infinite;
+}
+
+.slider_01 figure img {
+    width: 89vw;
 }
 
 .slider_02 {
     overflow: hidden;
     margin: 0;
-    margin-right: 10vw;
+    margin-right: 6vw;
+    margin-left: 5.5vw;
 }
 
 .slider_02 figure {
     position: relative;
-    width: 500%;
+    width: 403%;
     animation: 20s slider infinite;
 }
 
@@ -202,7 +209,7 @@ p {
 #en_section a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 1.9vw;
+    font-size: 1.2vw;
     color: gray;
 }
 
@@ -358,11 +365,15 @@ hr {
 
     /*-------------------MAIN START--------------*/
     figure img {
-        width: 85vw;
+        width: 70vw;
+    }
+
+    .slider_01 figure img {
+        width: 70vw;
     }
 
     .slider_02 figure img {
-        width: 79.1vw;
+        width: 65vw;
     }
 
     main {
@@ -380,7 +391,7 @@ hr {
     }
 
     #fire_section {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     #fire_section .section_wrapper {
@@ -408,7 +419,7 @@ hr {
     }
 
     nav.toggle {
-        margin-left: 200px;
+        margin-left: 100px;
         margin-right: 6px;
     }
 }
@@ -426,11 +437,15 @@ hr {
     }
 
     figure img {
-        width: 76vw;
+        width: 75vw;
+    }
+
+    .slider_01 figure img {
+        width: 75vw;
     }
 
     .slider_02 figure img {
-        width: 72.4vw;
+        width: 70.6vw;
     }
 
 }
@@ -440,23 +455,29 @@ hr {
     .topbar img {
         width: 11vw;
         height: auto;
+        margin-top: 3.4px;
+        margin-left: 11px
     }
 
     main {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 250px;
+        margin-right: 250px;
     }
 
     nav.toggle {
-        margin-left: 550px;
-        margin-right: 6px;
+        margin-left: 530px;
+        margin-right: 50px;
     }
 
     figure img {
-        width: 52.6vw;
+        width: 43.9vw;
+    }
+
+    .slider_01 figure img {
+        width: 44vw;
     }
 
     .slider_02 figure img {
-        width: 49.6vw;
+        width: 41vw;
     }
 }
